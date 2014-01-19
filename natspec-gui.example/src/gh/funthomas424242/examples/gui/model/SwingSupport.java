@@ -1,6 +1,5 @@
-package gh.funthomas424242.examples.gui.natspec;
+package gh.funthomas424242.examples.gui.model;
 
-import gh.funthomas424242.examples.gui.model.SwingDialog;
 import gh.funthomas424242.examples.gui.utils.StringConcatinator;
 
 import java.util.List;
@@ -16,7 +15,7 @@ public class SwingSupport {
 	public SwingDialog getDialog() {
 		return dialog;
 	} 
-
+  
 	@TextSyntax("Beschreibung des Dialoges #1 mit:")
 	public JFrame createDialog(final String dialogId) {
 		final JFrame frame = new JFrame();

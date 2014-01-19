@@ -1,6 +1,8 @@
 package gh.funthomas424242.examples.gui.natspec;
 
-import javax.swing.SwingUtilities;
+import gh.funthomas424242.examples.gui.model.SwingSupport;
+
+import javax.swing.SwingUtilities; 
 
 public class _NatSpecTemplate {
 
@@ -8,11 +10,12 @@ public class _NatSpecTemplate {
  
 	public SwingSupport createSwingSupport() {
 		// generated code will be inserted here
-		/* @MethodBody */ 
-
+		/* @MethodBody */
+		
+		
 		return swingSupport; 
 	}
-
+ 
 	
 
 	public static void main(final String args[]) {
