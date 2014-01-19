@@ -1,5 +1,5 @@
-//Beschreibung des Dialoges blah mit:
-//Breite=300 Höhe=200 
-//Titel=Hallo Welt mit Swing
-//Sichtbarkeit=ja
-//Schliesse diesen Dialog beim Beenden der Anwendung.
+Beschreibung des Dialoges gh.funthomas424242.app.dialogs.login wie folgt:
+Breite: 300 Höhe: 200 
+Titel: Login Dialog
+Sichtbarkeit: ja
+Schliesse diesen Dialog beim Beenden der Anwendung.

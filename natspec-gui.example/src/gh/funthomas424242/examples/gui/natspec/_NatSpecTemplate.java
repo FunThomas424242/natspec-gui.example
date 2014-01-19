@@ -10,7 +10,7 @@ public class _NatSpecTemplate {
 
 	public SwingSupport createSwingSupport() {
 		// generated code will be inserted here
-		/* @MethodBody */
+		/* @MethodBody */ 
 		
 		return swingSupport; 
 	}
