@@ -1,10 +1,9 @@
 package gh.funthomas424242.examples.gui.generation;
 
-import gh.funthomas424242.examples.gui.model.Model;
+import gh.funthomas424242.examples.gui.model.SwingDialog;
 import gh.funthomas424242.examples.gui.natspec.LoginDialog;
 
-import java.util.List;
-
+import javax.swing.SwingUtilities;
 
 public class CodeGenerator {
 
@@ -13,10 +12,22 @@ public class CodeGenerator {
 	}
 
 	private void run() {
-		LoginDialog loginDialog = new LoginDialog();
-		loginDialog.createSwingSupport();
-		Model model = loginDialog.getModel();
-		
+		// final SwingDialogModel model = new SwingDialogModel();
+		// LoginDialog loginDialog = new LoginDialog();
+		// final SwingDialog
+		// dialog=loginDialog.createSwingSupport().getDialog();
+		// model.putDialog(dialog.getDialogId(), dialog);
+		// final JFrame frame=dialog.getDialog();
+
+		final Runnable guiCreator = new Runnable() {
+			public void run() {
+				LoginDialog loginDialog = new LoginDialog();
+				final SwingDialog dialog = loginDialog.createSwingSupport()
+						.getDialog();
+			}
+		};
+		SwingUtilities.invokeLater(guiCreator);
+
 		// go throw all model elements
 	}
 

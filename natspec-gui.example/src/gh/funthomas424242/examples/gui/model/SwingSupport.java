@@ -1,6 +1,5 @@
-package gh.funthomas424242.examples.gui.natspec;
+package gh.funthomas424242.examples.gui.model;
 
-import gh.funthomas424242.examples.gui.model.Model;
 import gh.funthomas424242.examples.gui.utils.StringConcatinator;
 
 import java.util.List;
@@ -11,16 +10,17 @@ import de.devboost.natspec.annotations.TextSyntax;
 
 public class SwingSupport {
 
-	final Model model = new Model();
+	protected SwingDialog dialog;
 
-	public Model getModel() {
-		return model;
+	public SwingDialog getDialog() {
+		return dialog;
 	}
 
 	@TextSyntax("Beschreibung des Dialoges #1 mit:")
-	public JFrame createDialog(final String dialogName) {
-		final JFrame fenster = new JFrame();
-		return fenster;
+	public JFrame createDialog(final String dialogId) {
+		final JFrame frame = new JFrame();
+		this.dialog = new SwingDialog(dialogId, frame);
+		return frame;
 	}
 
 	@TextSyntax("Breite=#1 Höhe=#2")
