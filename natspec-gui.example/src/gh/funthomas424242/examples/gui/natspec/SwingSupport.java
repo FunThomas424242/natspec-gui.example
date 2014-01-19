@@ -1,12 +1,13 @@
 package gh.funthomas424242.examples.gui.natspec;
 
+import gh.funthomas424242.examples.gui.model.Model;
+import gh.funthomas424242.examples.gui.utils.StringConcatinator;
+
 import java.util.List;
 
 import javax.swing.JFrame;
-import javax.swing.SwingUtilities;
 
 import de.devboost.natspec.annotations.TextSyntax;
-import gh.funthomas424242.examples.gui.model.Model;
 
 public class SwingSupport {
 
@@ -15,8 +16,6 @@ public class SwingSupport {
 	public Model getModel() {
 		return model;
 	}
-
-	
 
 	@TextSyntax("Beschreibung des Dialoges #1 mit:")
 	public JFrame createDialog(final String dialogName) {
@@ -32,8 +31,7 @@ public class SwingSupport {
 
 	@TextSyntax("Titel=#1")
 	public void setTitel(final List<String> titels, final JFrame frame) {
-		// TODO concat
-		final String title = "Hallo";
+		final String title = new StringConcatinator(titels).getString();
 		frame.setTitle(title);
 	}
 
