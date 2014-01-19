@@ -3,3 +3,5 @@ Breite: 300 Höhe: 200
 Titel: Login Dialog
 Sichtbarkeit: ja
 Schliesse diesen Dialog beim Beenden der Anwendung.
+Verwende folgendes Layout: BorderLayout
+

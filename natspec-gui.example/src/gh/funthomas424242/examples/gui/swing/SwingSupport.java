@@ -2,6 +2,10 @@ package gh.funthomas424242.examples.gui.swing;
 
 import gh.funthomas424242.examples.gui.utils.StringConcatinator;
 
+import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+import java.awt.GridBagLayout;
+import java.awt.LayoutManager;
 import java.util.List;
 
 import javax.swing.JFrame;
@@ -49,5 +53,20 @@ public class SwingSupport {
 	public void setExitOnClose(final JFrame frame) {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
-
+	
+	@TextSyntax("Verwende folgendes Layout: #1")
+	public LayoutManager setLayout(final String layout, final JFrame frame) {
+		LayoutManager layoutManager=null;
+		if("BorderLayout".equals(layoutManager) ){
+			layoutManager=new BorderLayout();
+		}else if("FlowLayout".equals(layoutManager)){
+			layoutManager=new FlowLayout();
+		}else if("GridBagLayout".equals(layoutManager)){
+			layoutManager=new GridBagLayout();
+		}else{
+			//Default
+			layoutManager=new BorderLayout();	
+		}
+		return layoutManager;
+	}
 }

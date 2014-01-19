@@ -23,6 +23,8 @@ public class LoginDialog {
 		swingSupport.setVisibility("ja", jFrame_gh_funthomas424242_app_dialogs_login);
 		// Schliesse diesen Dialog beim Beenden der Anwendung.
 		swingSupport.setExitOnClose(jFrame_gh_funthomas424242_app_dialogs_login);
+		// Verwende folgendes Layout: BorderLayout
+		java.awt.LayoutManager layoutManager_BorderLayout = swingSupport.setLayout("BorderLayout", jFrame_gh_funthomas424242_app_dialogs_login);
 		 
 		
 		return swingSupport; 
