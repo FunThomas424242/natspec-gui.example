@@ -1,4 +1,4 @@
-package gh.funthomas424242.examples.gui.natspec;
+package gh.funthomas424242.examples.gui.dialogs.spec;
 
 import gh.funthomas424242.examples.gui.swing.SwingSupport;
 
@@ -10,7 +10,7 @@ public class LoginDialog {
 
 	public SwingSupport createSwingSupport() {
 		// generated code will be inserted here
-		// The code in this method is generated from: /natspec-gui.example/src/gh/funthomas424242/examples/gui/natspec/LoginDialog.natspec
+		// The code in this method is generated from: /natspec-gui.example/src/gh/funthomas424242/examples/gui/dialogs/spec/LoginDialog.natspec
 		// Never change this method or any contents of this file, all local changes will be overwritten.
 		
 		// Beschreibung des Dialoges gh.funthomas424242.app.dialogs.login wie folgt:

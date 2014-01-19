@@ -1,6 +1,6 @@
 package gh.funthomas424242.examples.gui.swing;
 
-import gh.funthomas424242.examples.gui.natspec.LoginDialog;
+import gh.funthomas424242.examples.gui.dialogs.spec.LoginDialog;
 
 import javax.swing.SwingUtilities;
 

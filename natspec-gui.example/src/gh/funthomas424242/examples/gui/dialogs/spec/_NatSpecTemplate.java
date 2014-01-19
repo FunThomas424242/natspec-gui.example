@@ -1,4 +1,4 @@
-package gh.funthomas424242.examples.gui.natspec;
+package gh.funthomas424242.examples.gui.dialogs.spec;
 
 import gh.funthomas424242.examples.gui.swing.SwingSupport;
 
