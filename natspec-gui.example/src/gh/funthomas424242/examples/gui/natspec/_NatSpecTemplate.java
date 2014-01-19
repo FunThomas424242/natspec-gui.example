@@ -1,17 +1,16 @@
 package gh.funthomas424242.examples.gui.natspec;
 
-import gh.funthomas424242.examples.gui.model.SwingSupport;
+import gh.funthomas424242.examples.gui.swing.SwingSupport;
 
 import javax.swing.SwingUtilities; 
 
-public class _NatSpecTemplate {
+public class _NatSpecTemplate { 
 
 	protected final SwingSupport swingSupport = new SwingSupport();
- 
+
 	public SwingSupport createSwingSupport() {
 		// generated code will be inserted here
 		/* @MethodBody */
-		
 		
 		return swingSupport; 
 	}
