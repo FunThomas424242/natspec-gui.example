@@ -20,7 +20,7 @@ generelles Problem der Generator getriebenen Entwicklung und nicht durch NatSpec
 
 Projektstatus
 -------------
-[![Build Status](https://travis-ci.org/FunThomas424242/natspec-gui.example.png?branch=master)](https://travis-ci.org/FunThomas424242/natspec-gui.example)
+
 Aktuell zeigt mein Beispielprojekt wie über eine sprachliche Spezifikation in NatSpec eine
 prototypische Implementierung bereitgestellt wird. Später soll der eigentliche Grundgedanke
 der Technologie verwirklicht werden und gezeigt werden wie eine wirkliche Generierung von 
