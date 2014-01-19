@@ -1,6 +1,5 @@
-Beschreibung des Dialoges gh.funthomas424242.app.dialoge.login mit:
+Beschreibung des Dialoges LoginDialog mit:
 Breite=300 Höhe=200
 Titel=Hallo Welt mit Swing
 Sichtbarkeit=ja
 Schliesse diesen Dialog beim Beenden der Anwendung.
-
