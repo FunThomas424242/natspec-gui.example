@@ -5,12 +5,15 @@ import gh.funthomas424242.examples.lib.utils.StringConcatinator;
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import java.awt.GridBagLayout;
+import java.awt.GridLayout;
 import java.awt.LayoutManager;
 import java.util.List;
 
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 
 import de.devboost.natspec.annotations.TextSyntax;
+import de.devboost.natspec.annotations.TextSyntaxes;
 
 public class SwingSupport { 
 
@@ -54,19 +57,38 @@ public class SwingSupport {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 	
-	@TextSyntax("Verwende folgendes Layout: #1")
-	public LayoutManager setLayout(final String layout, final JFrame frame) {
-		LayoutManager layoutManager=null;
-		if("BorderLayout".equals(layoutManager) ){
-			layoutManager=new BorderLayout();
-		}else if("FlowLayout".equals(layoutManager)){
-			layoutManager=new FlowLayout();
-		}else if("GridBagLayout".equals(layoutManager)){
-			layoutManager=new GridBagLayout();
-		}else{
-			//Default
-			layoutManager=new BorderLayout();	
-		}
-		return layoutManager;
+	
+	@TextSyntax("Verwende das Gridlayout mit #1 Spalten und #2 Zeilen.")
+	public GridLayout setGridLayout( final Integer spalten, final Integer zeilen,final JFrame frame) {
+		final GridLayout gl=new GridLayout();
+		gl.setColumns(spalten);
+		gl.setRows(zeilen);
+		frame.setLayout(gl);
+		return gl;
 	}
+		
+	@TextSyntax("Verwende das Borderlayout.")
+	public BorderLayout setBorderLayout( final JFrame frame) {
+		final BorderLayout borderLayout= new BorderLayout();
+		frame.setLayout(borderLayout);
+		return borderLayout;
+	}
+	
+	@TextSyntax("Verwende das Flowlayout.")
+	public FlowLayout setFlowLayout( final JFrame frame) {
+		final FlowLayout flowLayout= new FlowLayout();
+		frame.setLayout(flowLayout);
+		return flowLayout;
+	}
+			
+	
+	@TextSyntax("Füge hinzu das Label #1 mit dem Text #2")
+	public void addLabel(final String labelId, final List<String> labeltokens,final JFrame frame) {
+		final String labelText=new StringConcatinator(labeltokens).getString();
+		final JLabel label = new JLabel(labelText);
+		dialog.putElement(labelId,label);
+        frame.getContentPane().add(label);
+	}
+
+	
 }

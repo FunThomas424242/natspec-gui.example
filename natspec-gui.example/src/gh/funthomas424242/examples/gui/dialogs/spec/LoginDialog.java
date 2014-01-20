@@ -17,16 +17,20 @@ public class LoginDialog {
 		
 		// Beschreibung des Dialoges gh.funthomas424242.app.dialogs.login wie folgt:
 		javax.swing.JFrame jFrame_gh_funthomas424242_app_dialogs_login = swingSupport.createDialog("gh.funthomas424242.app.dialogs.login");
-		// Breite: 300 Höhe: 200
-		swingSupport.setSize(300, 200, jFrame_gh_funthomas424242_app_dialogs_login);
+		// Breite: 200 Höhe: 80
+		swingSupport.setSize(200, 80, jFrame_gh_funthomas424242_app_dialogs_login);
 		// Titel: Login Dialog
 		swingSupport.setTitel(java.util.Arrays.asList(new java.lang.String[] {"Login", "Dialog"}), jFrame_gh_funthomas424242_app_dialogs_login);
 		// Sichtbarkeit: ja
 		swingSupport.setVisibility("ja", jFrame_gh_funthomas424242_app_dialogs_login);
 		// Schliesse diesen Dialog beim Beenden der Anwendung.
 		swingSupport.setExitOnClose(jFrame_gh_funthomas424242_app_dialogs_login);
-		// Verwende folgendes Layout: BorderLayout
-		java.awt.LayoutManager layoutManager_BorderLayout = swingSupport.setLayout("BorderLayout", jFrame_gh_funthomas424242_app_dialogs_login);
+		// Verwende das Gridlayout mit 2 Spalten und 2 Zeilen.
+		java.awt.GridLayout gridLayout_2_2 = swingSupport.setGridLayout(2, 2, jFrame_gh_funthomas424242_app_dialogs_login);
+		// Füge hinzu das Label login.label.user mit dem Text Benutzer
+		swingSupport.addLabel("login.label.user", java.util.Arrays.asList(new java.lang.String[] {"Benutzer"}), jFrame_gh_funthomas424242_app_dialogs_login);
+		// Füge hinzu das Label login.label.password mit dem Text Password
+		swingSupport.addLabel("login.label.password", java.util.Arrays.asList(new java.lang.String[] {"Password"}), jFrame_gh_funthomas424242_app_dialogs_login);
 		 
 		
 		return swingSupport.getDialog(); 

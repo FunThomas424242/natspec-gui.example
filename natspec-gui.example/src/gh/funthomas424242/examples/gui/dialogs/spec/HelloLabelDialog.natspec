@@ -1,0 +1,7 @@
+Beschreibung des Dialoges gh.funthomas424242.app.dialogs.hello wie folgt:
+Breite: 300 Höhe: 200 
+Titel: Hello Label Dialog
+Sichtbarkeit: ja
+Schliesse diesen Dialog beim Beenden der Anwendung.
+Verwende das Borderlayout.
+Füge hinzu das Label hello.label mit dem Text Hallo Welt

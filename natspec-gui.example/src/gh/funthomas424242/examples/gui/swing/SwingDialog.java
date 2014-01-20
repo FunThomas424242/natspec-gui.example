@@ -26,6 +26,23 @@ public class SwingDialog {
 	public JFrame getDialog() {
 		return dialog;
 	}
+
+
+	public Boolean isContainedElement(final Object element){
+		return elements.containsValue(element);
+	}
+	
+	public Boolean isContainedElementId(final String elementId){
+		return elements.containsKey(elementId);
+	}
+	
+	public Object putElement(final String elementId, final Object element){
+		return elements.put(elementId, element);
+	}
+	
+	public Object getElement(final String elementId){
+		return elements.get(elementId);
+	}
 	
 	
 	
