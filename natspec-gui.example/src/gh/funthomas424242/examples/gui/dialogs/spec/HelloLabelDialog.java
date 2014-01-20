@@ -23,7 +23,7 @@ public class HelloLabelDialog {
 		swingSupport.setTitel(java.util.Arrays.asList(new java.lang.String[] {"Hello", "Label", "Dialog"}), jFrame_gh_funthomas424242_app_dialogs_hello);
 		// Sichtbarkeit: ja
 		swingSupport.setVisibility("ja", jFrame_gh_funthomas424242_app_dialogs_hello);
-		// Schliesse diesen Dialog beim Beenden der Anwendung.
+		// Beende die Anwendung beim Schliessen des Dialoges.
 		swingSupport.setExitOnClose(jFrame_gh_funthomas424242_app_dialogs_hello);
 		// Verwende das Borderlayout.
 		java.awt.BorderLayout borderLayout_ = swingSupport.setBorderLayout(jFrame_gh_funthomas424242_app_dialogs_hello);

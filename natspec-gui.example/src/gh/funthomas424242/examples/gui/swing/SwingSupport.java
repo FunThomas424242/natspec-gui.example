@@ -52,7 +52,7 @@ public class SwingSupport {
 		}
 	}
 
-	@TextSyntax("Schliesse diesen Dialog beim Beenden der Anwendung.")
+	@TextSyntax("Beende die Anwendung beim Schliessen des Dialoges.")
 	public void setExitOnClose(final JFrame frame) {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}

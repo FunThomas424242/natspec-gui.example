@@ -23,7 +23,7 @@ public class LoginDialog {
 		swingSupport.setTitel(java.util.Arrays.asList(new java.lang.String[] {"Login", "Dialog"}), jFrame_gh_funthomas424242_app_dialogs_login);
 		// Sichtbarkeit: ja
 		swingSupport.setVisibility("ja", jFrame_gh_funthomas424242_app_dialogs_login);
-		// Schliesse diesen Dialog beim Beenden der Anwendung.
+		// Beende die Anwendung beim Schliessen des Dialoges.
 		swingSupport.setExitOnClose(jFrame_gh_funthomas424242_app_dialogs_login);
 		// Verwende das Gridlayout mit 2 Spalten und 2 Zeilen.
 		java.awt.GridLayout gridLayout_2_2 = swingSupport.setGridLayout(2, 2, jFrame_gh_funthomas424242_app_dialogs_login);
