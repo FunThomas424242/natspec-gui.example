@@ -1,6 +1,6 @@
 package gh.funthomas424242.examples.gui.swing;
 
-import gh.funthomas424242.examples.gui.utils.StringConcatinator;
+import gh.funthomas424242.examples.lib.utils.StringConcatinator;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;

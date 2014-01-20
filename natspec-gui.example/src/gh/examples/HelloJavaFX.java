@@ -1,4 +1,4 @@
-package gh.funthomas424242.examples.gui.helloworlds;
+package gh.examples;
 
 //import javafx.application.Application;
 //import javafx.event.ActionEvent;

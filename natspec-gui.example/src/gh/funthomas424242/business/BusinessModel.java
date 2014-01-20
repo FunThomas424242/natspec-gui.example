@@ -1,9 +1,11 @@
-package gh.funthomas424242.examples.gui.swing;
+package gh.funthomas424242.business;
+
+import gh.funthomas424242.examples.gui.swing.SwingDialog;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class SwingDialogModel {
+public class BusinessModel {
 	
 	final Map<String,SwingDialog> dialoge=new HashMap<String,SwingDialog>();
 	

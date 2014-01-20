@@ -1,14 +1,16 @@
 package gh.funthomas424242.examples.gui.dialogs.spec;
 
+import gh.funthomas424242.examples.gui.swing.SwingDialog;
 import gh.funthomas424242.examples.gui.swing.SwingSupport;
 
 import javax.swing.SwingUtilities; 
 
 public class LoginDialog { 
 
-	protected final SwingSupport swingSupport = new SwingSupport();
+	protected SwingSupport swingSupport;
 
-	public SwingSupport createSwingSupport() {
+	public SwingDialog createDialog() {
+		swingSupport = new SwingSupport();
 		// generated code will be inserted here
 		// The code in this method is generated from: /natspec-gui.example/src/gh/funthomas424242/examples/gui/dialogs/spec/LoginDialog.natspec
 		// Never change this method or any contents of this file, all local changes will be overwritten.
@@ -27,17 +29,21 @@ public class LoginDialog {
 		java.awt.LayoutManager layoutManager_BorderLayout = swingSupport.setLayout("BorderLayout", jFrame_gh_funthomas424242_app_dialogs_login);
 		 
 		
-		return swingSupport; 
+		return swingSupport.getDialog(); 
 	}
  
 	
 
+	/**
+	 * only for preview
+	 * @param args
+	 */
 	public static void main(final String args[]) {
 
 		final Runnable guiCreator = new Runnable() {
 			public void run() {
 				LoginDialog tmp = new LoginDialog();
-				tmp.createSwingSupport();
+				tmp.createDialog();
 			}
 		};
 		SwingUtilities.invokeLater(guiCreator);

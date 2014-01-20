@@ -1,4 +1,4 @@
-package gh.funthomas424242.examples.gui.helloworlds;
+package gh.examples;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
