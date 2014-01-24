@@ -1,5 +1,6 @@
 Beschreibung des Dialoges gh.funthomas424242.app.dialogs.halloWelt wie folgt:
 Breite: 100 Höhe: 80 
+Fixiere die Größe.
 Titel: Hello Label Dialog
 Sichtbarkeit: ja
 Beende die Anwendung beim Schliessen des Dialoges.

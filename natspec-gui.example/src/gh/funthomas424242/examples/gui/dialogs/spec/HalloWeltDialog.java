@@ -19,6 +19,8 @@ public class HalloWeltDialog {
 		javax.swing.JFrame jFrame_gh_funthomas424242_app_dialogs_halloWelt = swingSupport.createDialog("gh.funthomas424242.app.dialogs.halloWelt");
 		// Breite: 100 Höhe: 80
 		swingSupport.setSize(100, 80, jFrame_gh_funthomas424242_app_dialogs_halloWelt);
+		// Fixiere die Größe.
+		swingSupport.fixiereDieGröße(jFrame_gh_funthomas424242_app_dialogs_halloWelt);
 		// Titel: Hello Label Dialog
 		swingSupport.setTitel(java.util.Arrays.asList(new java.lang.String[] {"Hello", "Label", "Dialog"}), jFrame_gh_funthomas424242_app_dialogs_halloWelt);
 		// Sichtbarkeit: ja

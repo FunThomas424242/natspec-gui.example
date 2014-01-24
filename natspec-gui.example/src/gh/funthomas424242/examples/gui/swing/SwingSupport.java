@@ -3,6 +3,7 @@ package gh.funthomas424242.examples.gui.swing;
 import gh.funthomas424242.examples.lib.utils.StringConcatinator;
 
 import java.awt.BorderLayout;
+import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.util.List;
@@ -56,6 +57,20 @@ public class SwingSupport {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 	
+	@TextSyntax("Entferne die Dekoration.")
+	public void removeDekoration(final JFrame frame) {
+		frame.setUndecorated(true);
+	}
+	
+	@TextSyntax("Dekoriere den Dialog.")
+	public void addDekoration(final JFrame frame) {
+		frame.setUndecorated(false);
+	}
+	
+	@TextSyntax("Fixiere die Größe.")
+	public void fixiereDieGröße(final JFrame frame) {
+		frame.setResizable(false);
+	}
 	
 	@TextSyntax("Verwende das Gridlayout mit #1 Spalten und #2 Zeilen.")
 	public GridLayout setGridLayout( final Integer spalten, final Integer zeilen,final JFrame frame) {
@@ -107,6 +122,12 @@ public class SwingSupport {
 		dialog.putElement(buttonId,button);
         frame.getContentPane().add(button);
 	}
+
+
+	
+
+
+	
 
 	
 }
