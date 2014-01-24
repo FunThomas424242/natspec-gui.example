@@ -1,0 +1,10 @@
+Beschreibung des Dialoges gh.funthomas424242.app.dialogs.halloWelt wie folgt:
+Breite: 100 Höhe: 80 
+Titel: Hello Label Dialog
+Sichtbarkeit: ja
+Beende die Anwendung beim Schliessen des Dialoges.
+Verwende das Gridlayout mit 1 Spalten und 2 Zeilen.
+Füge hinzu das Label halloWelt.label.hello mit dem Text Hallo Welt !
+Label vertikale Ausrichtung am Boden.
+Label horizontale Ausrichtung zur Mitte.
+Füge hinzu den Button halloWelt.button.ok mit dem Text OK

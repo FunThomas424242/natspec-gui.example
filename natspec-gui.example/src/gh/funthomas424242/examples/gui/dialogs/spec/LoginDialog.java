@@ -28,9 +28,9 @@ public class LoginDialog {
 		// Verwende das Gridlayout mit 2 Spalten und 2 Zeilen.
 		java.awt.GridLayout gridLayout_2_2 = swingSupport.setGridLayout(2, 2, jFrame_gh_funthomas424242_app_dialogs_login);
 		// Füge hinzu das Label login.label.user mit dem Text Benutzer
-		swingSupport.addLabel("login.label.user", java.util.Arrays.asList(new java.lang.String[] {"Benutzer"}), jFrame_gh_funthomas424242_app_dialogs_login);
+		javax.swing.JLabel jLabel_login_label_user_Benutzer = swingSupport.addLabel("login.label.user", java.util.Arrays.asList(new java.lang.String[] {"Benutzer"}), jFrame_gh_funthomas424242_app_dialogs_login);
 		// Füge hinzu das Label login.label.password mit dem Text Password
-		swingSupport.addLabel("login.label.password", java.util.Arrays.asList(new java.lang.String[] {"Password"}), jFrame_gh_funthomas424242_app_dialogs_login);
+		javax.swing.JLabel jLabel_login_label_password_Password = swingSupport.addLabel("login.label.password", java.util.Arrays.asList(new java.lang.String[] {"Password"}), jFrame_gh_funthomas424242_app_dialogs_login);
 		 
 		
 		return swingSupport.getDialog(); 

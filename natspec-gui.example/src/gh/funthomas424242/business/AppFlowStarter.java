@@ -1,36 +1,21 @@
 package gh.funthomas424242.business;
 
-import gh.funthomas424242.examples.gui.dialogs.spec.EmptyDialog;
-import gh.funthomas424242.examples.gui.dialogs.spec.HelloLabelDialog;
-import gh.funthomas424242.examples.gui.dialogs.spec.LoginDialog;
-import gh.funthomas424242.examples.gui.swing.SwingDialog;
-
-import javax.swing.SwingUtilities;
+import gh.funthomas424242.business.flow.MainFlow;
 
 public class AppFlowStarter {
 
-	protected  void businessLogic() {
-		final HelloLabelDialog helloLabelDialogFactory = new HelloLabelDialog();
-		final SwingDialog helloLabelDialog = helloLabelDialogFactory.createDialog();
-		final LoginDialog loginDialogFactory = new LoginDialog();
-		final SwingDialog loginDialog = loginDialogFactory.createDialog();
-		final EmptyDialog emptyDialogFactory = new EmptyDialog();
-		final SwingDialog emptyDialog = emptyDialogFactory.createDialog();
-	}
-
 	public void execute() {
-		final Runnable guiCreator = new Runnable() {
-			public void run() {
-				businessLogic();
-			}
-		};
-		SwingUtilities.invokeLater(guiCreator);
+		final BusinessModel model= new BusinessModel();
+		final MainFlow flow = new MainFlow(model);
+		flow.run();
+//		final Thread thread = new Thread(mainFlow);
+//		thread.start();
 	}
 
 	public static void main(String[] args) {
-		
-		final AppFlowStarter mainFlow=new AppFlowStarter();
+
+		final AppFlowStarter mainFlow = new AppFlowStarter();
 		mainFlow.execute();
-		
+
 	}
 }

@@ -4,16 +4,14 @@ import gh.funthomas424242.examples.lib.utils.StringConcatinator;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
-import java.awt.GridBagLayout;
 import java.awt.GridLayout;
-import java.awt.LayoutManager;
 import java.util.List;
 
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 import de.devboost.natspec.annotations.TextSyntax;
-import de.devboost.natspec.annotations.TextSyntaxes;
 
 public class SwingSupport { 
 
@@ -23,6 +21,7 @@ public class SwingSupport {
 		return dialog;
 	}
  
+		
 	@TextSyntax("Beschreibung des Dialoges #1 wie folgt:")
 	public JFrame createDialog(final String dialogId) {
 		final JFrame frame = new JFrame();
@@ -83,11 +82,30 @@ public class SwingSupport {
 			
 	
 	@TextSyntax("Füge hinzu das Label #1 mit dem Text #2")
-	public void addLabel(final String labelId, final List<String> labeltokens,final JFrame frame) {
+	public JLabel addLabel(final String labelId, final List<String> labeltokens,final JFrame frame) {
 		final String labelText=new StringConcatinator(labeltokens).getString();
 		final JLabel label = new JLabel(labelText);
 		dialog.putElement(labelId,label);
         frame.getContentPane().add(label);
+        return label;
+	}
+	
+	@TextSyntax("Label vertikale Ausrichtung am Boden.")
+	public void alignLabelVerticalBottom(final JLabel label){
+		label.setVerticalAlignment(JLabel.BOTTOM);
+	}
+	
+	@TextSyntax("Label horizontale Ausrichtung zur Mitte.")
+	public void alignLabelHorizontalCenter(final JLabel label){
+		label.setHorizontalAlignment(JLabel.CENTER);
+	}
+
+	@TextSyntax("Füge hinzu den Button #1 mit dem Text #2")
+	public void addButton(final String buttonId, final List<String> textTokens,final JFrame frame) {
+		final String buttonText=new StringConcatinator(textTokens).getString();
+		final JButton button = new JButton(buttonText);
+		dialog.putElement(buttonId,button);
+        frame.getContentPane().add(button);
 	}
 
 	
