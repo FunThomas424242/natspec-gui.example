@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: NatSpec GUI Examples Project
-Bundle-SymbolicName: gh.funthomas424242.examples.gui.natspec
+Bundle-Name: NatSpec Swing App Examples Project
+Bundle-SymbolicName: natspec-swingapp.examples
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7, JavaSE-1.6
 Require-Bundle: de.devboost.natspec.annotations,
