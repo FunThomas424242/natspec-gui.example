@@ -1,7 +1,8 @@
 Erstelle den Flow MainFlow
 Erstelle einen StartDialog.
-Registriere den LoginFlow am Button examples.button.login
-Registriere den SchliessenFlow am Button examples.button.close
+
+Registriere am Button examples.button.login den LoginFlow.
+Registriere am Button examples.button.close den SchliessenFlow.
 
 
 

@@ -1,3 +1,5 @@
 Nutze den Registrierten Flow.
 Erstelle einen Logindialog.
-Schliesse den rufenden Dialog.
+Registriere am Button examples.login.button.login den SchliessenFlow.
+Registriere am Button examples.login.button.cancel den BeendenFlow.
+

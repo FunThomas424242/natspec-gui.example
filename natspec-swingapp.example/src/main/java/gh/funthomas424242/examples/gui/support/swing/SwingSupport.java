@@ -10,6 +10,8 @@ import java.util.List;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
 
 import de.devboost.natspec.annotations.TextSyntax;
 
@@ -120,6 +122,21 @@ public class SwingSupport {
 		final JButton button = new JButton(buttonText);
 		dialog.putElement(buttonId,button);
         frame.getContentPane().add(button);
+	}
+
+
+	@TextSyntax("Füge hinzu das TextField #1")
+	public void addTextField(final String textFieldId, final JFrame frame) {
+		final JTextField textField= new JTextField();
+		dialog.putElement(textFieldId, textField);
+		frame.getContentPane().add(textField);
+	}
+	
+	@TextSyntax("Füge hinzu das PasswordField #1")
+	public void addPasswordField(final String passowordFieldId, final JFrame frame) {
+		final JPasswordField passwordField= new JPasswordField();
+		dialog.putElement(passowordFieldId, passwordField);
+		frame.getContentPane().add(passwordField);
 	}
 
 

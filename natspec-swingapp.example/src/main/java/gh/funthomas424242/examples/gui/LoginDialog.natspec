@@ -1,8 +1,14 @@
 Beschreibung des Dialoges gh.funthomas424242.app.dialogs.login wie folgt:
-Breite: 200 Höhe: 80
+Breite: 300 Höhe: 130
 Titel: Login Dialog
 Sichtbarkeit: ja
-Beende die Anwendung beim Schliessen des Dialoges.
-Verwende das Gridlayout mit 2 Spalten und 2 Zeilen.
+Verwende das Gridlayout mit 2 Spalten und 3 Zeilen.
 Füge hinzu das Label login.label.user mit dem Text Benutzer
+Füge hinzu das TextField login.textfield.userName
 Füge hinzu das Label login.label.password mit dem Text Password
+Füge hinzu das PasswordField login.textfield.password
+Füge hinzu den Button examples.login.button.login mit dem Text Login
+Füge hinzu den Button examples.login.button.cancel mit dem Text Abbrechen
+
+
+

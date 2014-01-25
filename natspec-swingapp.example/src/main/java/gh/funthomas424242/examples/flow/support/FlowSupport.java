@@ -1,6 +1,7 @@
 package gh.funthomas424242.examples.flow.support;
 
 import gh.funthomas424242.examples.app.BusinessModel;
+import gh.funthomas424242.examples.flow.BeendenFlow;
 import gh.funthomas424242.examples.flow.LoginFlow;
 import gh.funthomas424242.examples.flow.SchliessenFlow;
 import gh.funthomas424242.examples.gui.HalloWeltDialog;
@@ -55,17 +56,24 @@ public class FlowSupport {
 		return new LoginDialog().createDialog();
 	}
 
-	@TextSyntax("Registriere den LoginFlow am Button #1")
+	@TextSyntax("Registriere am Button #1 den LoginFlow.")
 	public void registriereLoginFlowAmButton(final String elementId,
 			final SwingDialog dialog, final Flow parentFlow) {
 		final SubFlow loginFlow = new LoginFlow(this.model, parentFlow);
 		registerDialogAtButton(loginFlow, dialog, elementId,  parentFlow);
 	}
 	
-	@TextSyntax("Registriere den SchliessenFlow am Button #1")
+	@TextSyntax("Registriere am Button #1 den SchliessenFlow.")
 	public void registriereSchliessenFlowAmButton(final String elementId,
 			final SwingDialog dialog, final Flow parentFlow) {
 		final SubFlow loginFlow = new SchliessenFlow(this.model, parentFlow);
+		registerDialogAtButton(loginFlow, dialog, elementId,  parentFlow);
+	}
+	
+	@TextSyntax("Registriere am Button #1 den BeendenFlow.")
+	public void registriereBeendenFlowAmButton(final String elementId,
+			final SwingDialog dialog, final Flow parentFlow) {
+		final SubFlow loginFlow = new BeendenFlow(this.model, parentFlow);
 		registerDialogAtButton(loginFlow, dialog, elementId,  parentFlow);
 	}
 
@@ -87,6 +95,11 @@ public class FlowSupport {
 		SwingDialog dialog=flow.getRufenderDialog();
 		dialog.getDialog().dispose();
 		
+	}
+
+	@TextSyntax("Beende die Anwendung.")
+	public void beendeDieAnwendung() {
+		System.exit(0);
 	}
 
 	
