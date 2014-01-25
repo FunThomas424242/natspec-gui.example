@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>gh.funthomas424242.examples</groupId>
+	<artifactId>natspec-swingapp</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>NatSpec Swing GUI Example</name>
+	<description>Lean Modeling via NatSpec for GUI of Applications</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>de.devboost</groupId>
+			<artifactId>de.devboost.natspec.annotations</artifactId>
+			<version>2.1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/libs/de.devboost.natspec.annotations_2.1.0.v201306031020.jar</systemPath>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

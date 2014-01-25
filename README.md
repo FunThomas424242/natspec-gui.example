@@ -13,6 +13,7 @@ von den implementierten Mappings natürlich sprachlicher Sätze auf Java Methode
 
 Projektstatus
 -------------
+[![Build Status](https://travis-ci.org/FunThomas424242/natspec-swingapp.example.png?branch=master)](https://travis-ci.org/FunThomas424242/natspec-swingapp.example)
 
 Mit dem Beispielprojekt soll gezeigt werden, wie eine einfache Generierung von Swing Applikationen
 erfolgen kann. Dabei soll entsprechend der Ideen von Lean Modelling mittels NatSpec je eine DSL
