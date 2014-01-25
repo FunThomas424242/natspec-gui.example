@@ -1,0 +1,13 @@
+Beschreibung des Dialoges gh.funthomas424242.app.dialogs.start wie folgt:
+Breite: 100 Höhe: 130 
+Fixiere die Größe.
+Titel: NatSpec GUI Example App
+Sichtbarkeit: ja
+Beende die Anwendung beim Schliessen des Dialoges.
+Verwende das Gridlayout mit 1 Spalten und 0 Zeilen.
+Füge hinzu das Label halloWelt.label.hello mit dem Text Bitte anmelden!
+Label vertikale Ausrichtung am Boden.
+Label horizontale Ausrichtung zur Mitte.
+Füge hinzu den Button examples.button.login mit dem Text Login
+Füge hinzu den Button examples.button.close mit dem Text Schliessen
+

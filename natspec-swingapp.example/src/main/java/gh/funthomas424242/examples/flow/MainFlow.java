@@ -25,10 +25,12 @@ public class MainFlow extends SubFlow implements Runnable {
 		
 		// Erstelle den Flow MainFlow
 		gh.funthomas424242.examples.flow.support.Flow flow_MainFlow = flowSupport.erstelleDenFlow("MainFlow");
-		// Erstelle einen HalloWeltDialog.
-		gh.funthomas424242.examples.gui.support.swing.SwingDialog swingDialog_ = flowSupport.erstelleEinenHelloLabeldialog();
-		// Registriere den LoginFlow am Button halloWelt.button.ok
-		flowSupport.registriereLoginFlowAmButton("halloWelt.button.ok", swingDialog_, flow_MainFlow);
+		// Erstelle einen StartDialog.
+		gh.funthomas424242.examples.gui.support.swing.SwingDialog swingDialog_ = flowSupport.createStartDialog();
+		// Registriere den LoginFlow am Button examples.button.login
+		flowSupport.registriereLoginFlowAmButton("examples.button.login", swingDialog_, flow_MainFlow);
+		// Registriere den SchliessenFlow am Button examples.button.close
+		flowSupport.registriereSchliessenFlowAmButton("examples.button.close", swingDialog_, flow_MainFlow);
 		 
 	
 	}
