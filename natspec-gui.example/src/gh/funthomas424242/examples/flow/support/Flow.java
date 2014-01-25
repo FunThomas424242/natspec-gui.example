@@ -1,19 +1,17 @@
-package gh.funthomas424242.business;
+package gh.funthomas424242.examples.flow.support;
 
-import gh.funthomas424242.examples.gui.swing.SwingDialog;
+import gh.funthomas424242.examples.app.BusinessModel;
+import gh.funthomas424242.examples.gui.support.swing.SwingDialog;
 
 public class Flow  {
 
 	protected final BusinessModel model;
-	protected final Flow parentFlow;
-	
 	protected String flowName;
 	protected SwingDialog rufenderDialog;
 	
 	
-	public Flow(final BusinessModel model, final Flow parentFlow){
+	public Flow(final BusinessModel model){
 		this.model=model;
-		this.parentFlow=parentFlow;
 	}
 
 	public void setFlowName(final String flowName){

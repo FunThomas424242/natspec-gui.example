@@ -1,4 +1,4 @@
-package gh.funthomas424242.examples.gui.swing;
+package gh.funthomas424242.examples.gui.support.swing;
 
 import java.util.Hashtable;
 import java.util.Map;

@@ -1,6 +1,6 @@
-package gh.funthomas424242.business;
+package gh.funthomas424242.examples.app;
 
-import gh.funthomas424242.business.flow.MainFlow;
+import gh.funthomas424242.examples.flow.MainFlow;
 
 public class AppFlowStarter {
 

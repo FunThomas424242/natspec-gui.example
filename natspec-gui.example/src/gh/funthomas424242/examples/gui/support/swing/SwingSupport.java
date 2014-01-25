@@ -1,4 +1,4 @@
-package gh.funthomas424242.examples.gui.swing;
+package gh.funthomas424242.examples.gui.support.swing;
 
 import gh.funthomas424242.examples.lib.utils.StringConcatinator;
 

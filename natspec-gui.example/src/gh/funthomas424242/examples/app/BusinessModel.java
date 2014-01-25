@@ -1,6 +1,6 @@
-package gh.funthomas424242.business;
+package gh.funthomas424242.examples.app;
 
-import gh.funthomas424242.examples.gui.swing.SwingDialog;
+import gh.funthomas424242.examples.gui.support.swing.SwingDialog;
 
 import java.util.HashMap;
 import java.util.Map;

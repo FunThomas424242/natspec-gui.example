@@ -1,14 +1,16 @@
-package gh.funthomas424242.business;
+package gh.funthomas424242.examples.flow.support;
+
+import gh.funthomas424242.examples.app.BusinessModel;
+import gh.funthomas424242.examples.flow.LoginFlow;
+import gh.funthomas424242.examples.gui.HalloWeltDialog;
+import gh.funthomas424242.examples.gui.LoginDialog;
+import gh.funthomas424242.examples.gui.support.swing.SwingDialog;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 
-import gh.funthomas424242.business.flow.LoginFlow;
-import gh.funthomas424242.examples.gui.dialogs.spec.HalloWeltDialog;
-import gh.funthomas424242.examples.gui.dialogs.spec.LoginDialog;
-import gh.funthomas424242.examples.gui.swing.SwingDialog;
 import de.devboost.natspec.annotations.TextSyntax;
 
 public class FlowSupport {
@@ -28,7 +30,7 @@ public class FlowSupport {
 	
 	@TextSyntax("Erstelle den Flow #1")
 	public Flow erstelleDenFlow(String flowId) {
-		final Flow flow= new Flow(model,null);
+		final Flow flow= new Flow(model);
 		flow.setFlowName(flowId);
 		return flow;
 	}
@@ -54,7 +56,7 @@ public class FlowSupport {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				loginFlow.run();
-			}
+			} 
 		});
 	}
 

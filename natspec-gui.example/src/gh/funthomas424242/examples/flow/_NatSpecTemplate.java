@@ -1,10 +1,11 @@
-package  gh.funthomas424242.business.flow;
+package  gh.funthomas424242.examples.flow;
 
-import gh.funthomas424242.business.BusinessModel;
-import gh.funthomas424242.business.Flow;
-import gh.funthomas424242.business.FlowSupport;
+import gh.funthomas424242.examples.app.BusinessModel;
+import gh.funthomas424242.examples.flow.support.Flow;
+import gh.funthomas424242.examples.flow.support.FlowSupport;
+import gh.funthomas424242.examples.flow.support.SubFlow;
 
-public class _NatSpecTemplate extends Flow implements Runnable { 
+public class _NatSpecTemplate extends SubFlow implements Runnable { 
 	
 	final protected FlowSupport flowSupport;
 	

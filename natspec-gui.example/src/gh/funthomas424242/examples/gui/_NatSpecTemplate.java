@@ -1,9 +1,9 @@
-package  gh.funthomas424242.examples.gui.dialogs.spec;
+package  gh.funthomas424242.examples.gui;
 
-import gh.funthomas424242.examples.gui.swing.SwingDialog;
-import gh.funthomas424242.examples.gui.swing.SwingSupport;
+import gh.funthomas424242.examples.gui.support.swing.SwingDialog;
+import gh.funthomas424242.examples.gui.support.swing.SwingSupport;
 
-import javax.swing.SwingUtilities; 
+import javax.swing.SwingUtilities;
 
 public class _NatSpecTemplate { 
 
