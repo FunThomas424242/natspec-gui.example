@@ -1,4 +1,4 @@
-natspec-gui.example
+natspec-swingapp.example
 ===================
 
 Dies soll ein Beispielprojekt für angewandtes Lean Modeling von GUI Dialogen mittels NatSpec werden. 
@@ -28,4 +28,12 @@ Beschreiben der Applikation in den DSLs und der Implementierung der Mapping Klas
 
 Im [Beispielprojekt](https://github.com/DevBoost/JavaMagazin_Lean_Modeling_Example) der NatSpec 
 Founder werden bereits sehr ansprechende Beispiele gezeigt. 
+
+Architekturentscheidungen
+-------------------------
+
+Bei der Implementierung wurden folgende Entscheidungen bewusst getroffen:
+* Die Abhängigkeiten wurden nicht wie üblich implemtiert: GUI->Business->Entity sondern es wurde sich dafür entschieden den Business Layer von
+dem GUI und dem Entity Layer abhängig zu machen. Im Gegenzug dürfen GUI und Entity Layer keine Abhängigkeit in den Business Layer aufweisen.
+
 
