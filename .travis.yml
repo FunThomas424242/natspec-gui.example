@@ -1,4 +1,4 @@
-before-script:
+before_install:
   - cd natspec-swingapp.example
   
 jdk:
