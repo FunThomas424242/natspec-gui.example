@@ -1,4 +1,4 @@
-package gh.funthomas424242.examples.lib.utils;
+package gh.funthomas424242.examples.lib;
 
 import java.util.List;
 

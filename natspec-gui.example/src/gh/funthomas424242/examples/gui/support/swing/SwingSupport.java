@@ -1,9 +1,8 @@
 package gh.funthomas424242.examples.gui.support.swing;
 
-import gh.funthomas424242.examples.lib.utils.StringConcatinator;
+import gh.funthomas424242.examples.lib.StringConcatinator;
 
 import java.awt.BorderLayout;
-import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.util.List;
