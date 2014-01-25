@@ -1,6 +1,8 @@
-language: java
+before-script:
+  - cd natspec-swingapp.example
   
 jdk:
   - openjdk7
 
-script: "mvn -f ./natspec-swingapp.example/pom.xml clean install"
+language: java
+script: "mvn clean install"
