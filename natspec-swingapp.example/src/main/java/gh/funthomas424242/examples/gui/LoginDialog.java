@@ -35,8 +35,8 @@ public class LoginDialog {
 		swingSupport.addPasswordField("login.textfield.password", jFrame_gh_funthomas424242_app_dialogs_login);
 		// Füge hinzu den Button examples.login.button.login mit dem Text Login
 		swingSupport.addButton("examples.login.button.login", java.util.Arrays.asList(new java.lang.String[] {"Login"}), jFrame_gh_funthomas424242_app_dialogs_login);
-		// Füge hinzu den Button examples.login.button.cancel mit dem Text Abbrechen
-		swingSupport.addButton("examples.login.button.cancel", java.util.Arrays.asList(new java.lang.String[] {"Abbrechen"}), jFrame_gh_funthomas424242_app_dialogs_login);
+		// Füge hinzu den Button examples.login.button.cancel mit dem Text Beenden
+		swingSupport.addButton("examples.login.button.cancel", java.util.Arrays.asList(new java.lang.String[] {"Beenden"}), jFrame_gh_funthomas424242_app_dialogs_login);
 		 
 		
 		return swingSupport.getDialog(); 

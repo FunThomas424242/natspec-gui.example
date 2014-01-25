@@ -8,7 +8,7 @@ Füge hinzu das TextField login.textfield.userName
 Füge hinzu das Label login.label.password mit dem Text Password
 Füge hinzu das PasswordField login.textfield.password
 Füge hinzu den Button examples.login.button.login mit dem Text Login
-Füge hinzu den Button examples.login.button.cancel mit dem Text Abbrechen
+Füge hinzu den Button examples.login.button.cancel mit dem Text Beenden
 
 
 
