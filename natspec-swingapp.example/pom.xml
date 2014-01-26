@@ -12,11 +12,27 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<github.global.userName>${env.USER}</github.global.userName>
-        <github.global.password>${env.PASSWORD}</github.global.password>
-        <github.global.server>github</github.global.server>
-        <github.maventools.version>0.9</github.maventools.version>
+		<github.maventools.version>0.9</github.maventools.version>
 	</properties>
+
+	<profiles>
+		<profile>
+			<id>local</id>
+			<properties>
+				<github.global.server>github</github.global.server>
+			</properties>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+		</profile>
+		<profile>
+			<id>remote</id>
+			<properties>
+				<github.global.userName>${env.USER}</github.global.userName>
+				<github.global.password>${env.PASSWORD}</github.global.password>
+			</properties>
+		</profile>
+	</profiles>
 
 	<licenses>
 		<license>

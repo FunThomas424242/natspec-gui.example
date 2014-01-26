@@ -6,4 +6,4 @@ env:
 language: java
 jdk:
   - openjdk7
-script: mvn -f ./natspec-swingapp.example/pom.xml clean install
+script: mvn -Premote -f ./natspec-swingapp.example/pom.xml clean install
