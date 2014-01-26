@@ -14,6 +14,14 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 
+	<licenses>
+		<license>
+			<name> GNU LESSER GENERAL PUBLIC LICENSE</name>
+			<distribution>repo</distribution>
+			<url>http://www.gnu.org/licenses/lgpl-2.1.txt</url>
+		</license>
+	</licenses>
+
 	<developers>
 		<developer>
 			<id>funthomas424242</id>
@@ -25,6 +33,12 @@
 			</roles>
 		</developer>
 	</developers>
+
+	<scm>
+		<connection>scm:https://github.com/FunThomas424242/natspec-swingapp.example.git</connection>
+		<developerConnection>scm:https://github.com/FunThomas424242/natspec-swingapp.example.git</developerConnection>
+		<url>https://github.com/FunThomas424242/natspec-swingapp.example</url>
+	</scm>
 
 	<ciManagement>
 		<url>https://travis-ci.org/FunThomas424242/natspec-swingapp.example</url>
