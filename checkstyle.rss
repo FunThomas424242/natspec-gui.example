@@ -323,20 +323,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.flow.MainFlow.java">gh/funthomas424242/examples/flow/MainFlow.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  60
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.gui.support.swing.package.html">gh/funthomas424242/examples/gui/support/swing/package.html</a>
                 </td>
                 <td>
@@ -347,6 +333,20 @@
                 </td>
                 <td>
                   1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.flow.MainFlow.java">gh/funthomas424242/examples/flow/MainFlow.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  60
                 </td>
               </tr>
                           <tr>
