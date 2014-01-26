@@ -1,7 +1,7 @@
 env:
   global:
     - secure: "gzr1m8zeg46HYnGoNU871UK3RMqqShou8bJtGPl8GhgdoSpxTj9At8yrYmwtQCVRDo5GZ3Xukm32IQ2Bp4R1r5eJCRz0SkNEMlDGuwtM62u5qarP1mAFywhszMbr7xVVzJ6O8Y0OoTE/GZ5IjmVLGyJxvYw3X/3VZK1GmGnoMpg="
-    - secure: "Hwu/04YTZGqLc0jTM7yT3k6CxCak6LdiFeGfDbkMaIbOOVBKqnTgXSDuEoLB0mZ9PQlDGfrrs43hhJtRYhBMTKxUMw6kz/3dmP16gU3gFAU3gBdSuvSisVFopBix/6hAfCb3QOr3LpGCvifuy+6C5cPV8HaxeMtlLkkPLnqrfxM="
+    - secure: "TtECYR8DLf+ymMuadMtRsCbSF66rmWS/y+DquaqZXrs126YTAP6kxWff5+yItyoGJ0/tAYW4LvYAGbY8xdRAJTXDUia3JZ5Q9OrME8d4zJKu1zXFzjRILGTYHAnf1vzJp5wDfV8G6aSzxDjltj3W3z1gX6KOpwM30Gf780sec6M="
 
 language: java
 jdk:
