@@ -12,6 +12,9 @@ import gh.funthomas424242.examples.lib.BusinessModel;
  */
 public class BeendenFlow extends SubFlow implements Runnable {
 
+    /**
+     * Unterliegende Support Klasse.
+     */
     final private FlowSupport flowSupport;
 
     /**
