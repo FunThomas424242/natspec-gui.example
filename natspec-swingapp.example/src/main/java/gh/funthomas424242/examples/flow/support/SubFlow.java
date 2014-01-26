@@ -1,6 +1,5 @@
 package gh.funthomas424242.examples.flow.support;
 
-import gh.funthomas424242.examples.app.BusinessModel;
 
 public abstract class SubFlow extends Flow {
 

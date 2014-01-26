@@ -1,6 +1,5 @@
 package gh.funthomas424242.examples.flow.support;
 
-import gh.funthomas424242.examples.app.BusinessModel;
 import gh.funthomas424242.examples.gui.support.swing.SwingDialog;
 
 public abstract class Flow  implements Runnable{

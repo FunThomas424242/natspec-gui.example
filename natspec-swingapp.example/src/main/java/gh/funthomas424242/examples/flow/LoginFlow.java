@@ -1,6 +1,6 @@
 package gh.funthomas424242.examples.flow;
 
-import gh.funthomas424242.examples.app.BusinessModel;
+import gh.funthomas424242.examples.flow.support.BusinessModel;
 import gh.funthomas424242.examples.flow.support.Flow;
 import gh.funthomas424242.examples.flow.support.FlowSupport;
 import gh.funthomas424242.examples.flow.support.SubFlow;

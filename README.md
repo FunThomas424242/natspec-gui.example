@@ -36,6 +36,6 @@ Bei der Implementierung wurden folgende Entscheidungen bewusst getroffen:
 * Die Abhängigkeiten wurden nicht wie üblich implemtiert: GUI->Business->Entity sondern es wurde sich dafür entschieden den Business Layer von
 dem GUI und dem Entity Layer abhängig zu machen. Im Gegenzug dürfen GUI und Entity Layer keine Abhängigkeit in den Business Layer aufweisen.
 
-Entsprechende Projektreports zur Überprüfung befinden sich auf den [gh-pages](http://funthomas424242.github.io/natspec-swingapp.example/project-reports.html).
+Entsprechende Projektreports zur Überprüfung befinden sich auf den [gh-pages](http://funthomas424242.github.io/natspec-swingapp.example/jdepend-report.html).
 
 
