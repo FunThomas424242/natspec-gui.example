@@ -5,7 +5,6 @@ import gh.funthomas424242.examples.flow.support.SubFlow;
 import gh.funthomas424242.examples.gui.HalloWeltDialog;
 import gh.funthomas424242.examples.gui.LoginDialog;
 import gh.funthomas424242.examples.gui.StartDialog;
-import gh.funthomas424242.examples.gui.support.swing.SwingDialog;
 import gh.funthomas424242.examples.lib.BusinessModel;
 import gh.funthomas424242.examples.lib.DialogModelElement;
 
