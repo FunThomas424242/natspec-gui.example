@@ -1,12 +1,12 @@
-package gh.funthomas424242.examples.flow.support;
+package gh.funthomas424242.examples.flow;
 
-import gh.funthomas424242.examples.flow.BeendenFlow;
-import gh.funthomas424242.examples.flow.LoginFlow;
-import gh.funthomas424242.examples.flow.SchliessenFlow;
+import gh.funthomas424242.examples.flow.support.Flow;
+import gh.funthomas424242.examples.flow.support.SubFlow;
 import gh.funthomas424242.examples.gui.HalloWeltDialog;
 import gh.funthomas424242.examples.gui.LoginDialog;
 import gh.funthomas424242.examples.gui.StartDialog;
 import gh.funthomas424242.examples.gui.support.swing.SwingDialog;
+import gh.funthomas424242.examples.lib.BusinessModel;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

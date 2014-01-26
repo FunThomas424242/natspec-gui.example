@@ -1,9 +1,8 @@
 package gh.funthomas424242.examples.flow;
 
-import gh.funthomas424242.examples.flow.support.BusinessModel;
 import gh.funthomas424242.examples.flow.support.Flow;
-import gh.funthomas424242.examples.flow.support.FlowSupport;
 import gh.funthomas424242.examples.flow.support.SubFlow;
+import gh.funthomas424242.examples.lib.BusinessModel;
 
 public class MainFlow extends SubFlow implements Runnable { 
 	
@@ -25,12 +24,20 @@ public class MainFlow extends SubFlow implements Runnable {
 		
 		// Erstelle den Flow MainFlow
 		gh.funthomas424242.examples.flow.support.Flow flow_MainFlow = flowSupport.erstelleDenFlow("MainFlow");
+		// Erstelle den Flow MainFlow
+		gh.funthomas424242.examples.flow.support.Flow flow_MainFlow0 = flowSupport.erstelleDenFlow("MainFlow");
 		// Erstelle einen StartDialog.
 		gh.funthomas424242.examples.gui.support.swing.SwingDialog swingDialog_ = flowSupport.createStartDialog();
+		// Erstelle einen StartDialog.
+		gh.funthomas424242.examples.gui.support.swing.SwingDialog swingDialog_0 = flowSupport.createStartDialog();
 		// Registriere am Button examples.button.login den LoginFlow.
-		flowSupport.registriereLoginFlowAmButton("examples.button.login", swingDialog_, flow_MainFlow);
+		flowSupport.registriereLoginFlowAmButton("examples.button.login", swingDialog_0, flow_MainFlow0);
+		// Registriere am Button examples.button.login den LoginFlow.
+		flowSupport.registriereLoginFlowAmButton("examples.button.login", swingDialog_0, flow_MainFlow0);
 		// Registriere am Button examples.button.close den SchliessenFlow.
-		flowSupport.registriereSchliessenFlowAmButton("examples.button.close", swingDialog_, flow_MainFlow);
+		flowSupport.registriereSchliessenFlowAmButton("examples.button.close", swingDialog_0, flow_MainFlow0);
+		// Registriere am Button examples.button.close den SchliessenFlow.
+		flowSupport.registriereSchliessenFlowAmButton("examples.button.close", swingDialog_0, flow_MainFlow0);
 		 
 	
 	}

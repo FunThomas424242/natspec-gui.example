@@ -1,9 +1,8 @@
 package gh.funthomas424242.examples.flow;
 
-import gh.funthomas424242.examples.flow.support.BusinessModel;
 import gh.funthomas424242.examples.flow.support.Flow;
-import gh.funthomas424242.examples.flow.support.FlowSupport;
 import gh.funthomas424242.examples.flow.support.SubFlow;
+import gh.funthomas424242.examples.lib.BusinessModel;
 
 public class SchliessenFlow extends SubFlow implements Runnable { 
 	
@@ -25,8 +24,12 @@ public class SchliessenFlow extends SubFlow implements Runnable {
 		
 		// Nutze den Registrierten Flow.
 		gh.funthomas424242.examples.flow.support.Flow flow_ = flowSupport.nutzeDenRegistriertenFlow();
+		// Nutze den Registrierten Flow.
+		gh.funthomas424242.examples.flow.support.Flow flow_0 = flowSupport.nutzeDenRegistriertenFlow();
 		// Schliesse den rufenden Dialog.
-		flowSupport.schliesseDenRufendenDialog(flow_);
+		flowSupport.schliesseDenRufendenDialog(flow_0);
+		// Schliesse den rufenden Dialog.
+		flowSupport.schliesseDenRufendenDialog(flow_0);
 		 
 	
 	}

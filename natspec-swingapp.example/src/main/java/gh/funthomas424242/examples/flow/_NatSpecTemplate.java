@@ -1,9 +1,8 @@
 package  gh.funthomas424242.examples.flow;
 
-import gh.funthomas424242.examples.flow.support.BusinessModel;
 import gh.funthomas424242.examples.flow.support.Flow;
-import gh.funthomas424242.examples.flow.support.FlowSupport;
 import gh.funthomas424242.examples.flow.support.SubFlow;
+import gh.funthomas424242.examples.lib.BusinessModel;
 
 public class _NatSpecTemplate extends SubFlow implements Runnable { 
 	

@@ -1,9 +1,8 @@
 package gh.funthomas424242.examples.flow;
 
-import gh.funthomas424242.examples.flow.support.BusinessModel;
 import gh.funthomas424242.examples.flow.support.Flow;
-import gh.funthomas424242.examples.flow.support.FlowSupport;
 import gh.funthomas424242.examples.flow.support.SubFlow;
+import gh.funthomas424242.examples.lib.BusinessModel;
 
 public class BeendenFlow extends SubFlow implements Runnable { 
 	
@@ -25,6 +24,10 @@ public class BeendenFlow extends SubFlow implements Runnable {
 		
 		// Nutze den Registrierten Flow.
 		gh.funthomas424242.examples.flow.support.Flow flow_ = flowSupport.nutzeDenRegistriertenFlow();
+		// Nutze den Registrierten Flow.
+		gh.funthomas424242.examples.flow.support.Flow flow_0 = flowSupport.nutzeDenRegistriertenFlow();
+		// Beende die Anwendung.
+		flowSupport.beendeDieAnwendung();
 		// Beende die Anwendung.
 		flowSupport.beendeDieAnwendung();
 		 

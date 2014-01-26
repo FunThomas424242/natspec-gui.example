@@ -1,15 +1,13 @@
-package gh.funthomas424242.examples.flow.support;
-
-import gh.funthomas424242.examples.gui.support.swing.SwingDialog;
+package gh.funthomas424242.examples.lib;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class BusinessModel {
 	
-	final Map<String,SwingDialog> dialoge=new HashMap<String,SwingDialog>();
+	final Map<String,DialogModelElement> dialoge=new HashMap<String,DialogModelElement>();
 	
-	public Boolean isContainedDialog(final SwingDialog dialog){
+	public Boolean isContainedDialog(final DialogModelElement dialog){
 		return dialoge.containsValue(dialog);
 	}
 	
@@ -17,11 +15,11 @@ public class BusinessModel {
 		return dialoge.containsKey(dialogId);
 	}
 	
-	public SwingDialog putDialog(final String dialogId, final SwingDialog dialog){
+	public DialogModelElement putDialog(final String dialogId, final DialogModelElement dialog){
 		return dialoge.put(dialogId, dialog);
 	}
 	
-	public SwingDialog getDialog(final String dialogId){
+	public DialogModelElement getDialog(final String dialogId){
 		return dialoge.get(dialogId);
 	}
 	
