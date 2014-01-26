@@ -12,6 +12,10 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<!--github.global.userName>${env.MY_USER}</github.global.userName>
+        <github.global.password>${env.MY_PASS}</github.global.password-->
+        <github.global.server>github</github.global.server>
+        <github.maventools.version>0.9</github.maventools.version>
 	</properties>
 
 	<licenses>
@@ -68,6 +72,25 @@
 					<source>1.7</source>
 					<target>1.7</target>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.github.github</groupId>
+				<artifactId>site-maven-plugin</artifactId>
+				<version>${github.maventools.version}</version>
+				<configuration>
+					<message>Building site for ${project.version}</message>
+					<dryRun>false</dryRun>
+					<noJekyll>true</noJekyll>
+					<merge>true</merge>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>site</goal>
+						</goals>
+						<phase>install</phase>
+					</execution>
+				</executions>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
