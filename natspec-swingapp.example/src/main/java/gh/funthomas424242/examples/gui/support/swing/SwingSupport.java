@@ -1,5 +1,6 @@
 package gh.funthomas424242.examples.gui.support.swing;
 
+import gh.funthomas424242.examples.lib.DialogModelElement;
 import gh.funthomas424242.examples.lib.StringConcatinator;
 
 import java.awt.BorderLayout;
@@ -17,9 +18,9 @@ import de.devboost.natspec.annotations.TextSyntax;
 
 public class SwingSupport { 
 
-	protected SwingDialog dialog; 
+	protected DialogModelElement dialog; 
 
-	public SwingDialog getDialog() {
+	public DialogModelElement getDialog() {
 		return dialog;
 	}
  

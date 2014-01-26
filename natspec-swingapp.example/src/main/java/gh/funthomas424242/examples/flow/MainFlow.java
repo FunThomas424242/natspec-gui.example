@@ -8,21 +8,20 @@ import gh.funthomas424242.examples.lib.BusinessModel;
  * Diese Klasse repÃ¤sentiert einen Flow oder Subflow.
  * 
  * @author SchubertT006
- * 
  */
 public class MainFlow extends SubFlow implements Runnable {
 
     /**
      * Unterliegende Support Klasse.
      */
-    final private FlowSupport flowSupport;
+    private final FlowSupport flowSupport;
 
     /**
      * Diese Methode gibt die unterliegende Supoort Klasse zurÃ¼ck.
      * 
      * @return flowSupport
      */
-    public FlowSupport getFlowSupport() {
+    public final FlowSupport getFlowSupport() {
         return flowSupport;
     }
 
@@ -58,11 +57,11 @@ public class MainFlow extends SubFlow implements Runnable {
 // Erstelle den Flow MainFlow
 gh.funthomas424242.examples.flow.support.Flow flow_MainFlow = flowSupport.erstelleDenFlow("MainFlow");
 // Erstelle einen StartDialog.
-gh.funthomas424242.examples.gui.support.swing.SwingDialog swingDialog_ = flowSupport.createStartDialog();
+gh.funthomas424242.examples.lib.DialogModelElement dialogModelElement_ = flowSupport.createStartDialog();
 // Registriere am Button examples.button.login den LoginFlow.
-flowSupport.registriereLoginFlowAmButton("examples.button.login", swingDialog_, flow_MainFlow);
+flowSupport.registriereLoginFlowAmButton("examples.button.login", dialogModelElement_, flow_MainFlow);
 // Registriere am Button examples.button.close den SchliessenFlow.
-flowSupport.registriereSchliessenFlowAmButton("examples.button.close", swingDialog_, flow_MainFlow);
+flowSupport.registriereSchliessenFlowAmButton("examples.button.close", dialogModelElement_, flow_MainFlow);
 
 
     }

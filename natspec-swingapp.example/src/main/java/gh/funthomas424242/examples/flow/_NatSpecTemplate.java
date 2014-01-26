@@ -8,21 +8,20 @@ import gh.funthomas424242.examples.lib.BusinessModel;
  * Diese Klasse repäsentiert einen Flow oder Subflow.
  * 
  * @author SchubertT006
- * 
  */
 public class _NatSpecTemplate extends SubFlow implements Runnable {
 
     /**
      * Unterliegende Support Klasse.
      */
-    final private FlowSupport flowSupport;
+    private final FlowSupport flowSupport;
 
     /**
      * Diese Methode gibt die unterliegende Supoort Klasse zurück.
      * 
      * @return flowSupport
      */
-    public FlowSupport getFlowSupport() {
+    public final FlowSupport getFlowSupport() {
         return flowSupport;
     }
 

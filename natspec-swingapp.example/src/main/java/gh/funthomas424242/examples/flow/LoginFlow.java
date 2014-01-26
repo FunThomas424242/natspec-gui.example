@@ -8,21 +8,20 @@ import gh.funthomas424242.examples.lib.BusinessModel;
  * Diese Klasse repÃ¤sentiert einen Flow oder Subflow.
  * 
  * @author SchubertT006
- * 
  */
 public class LoginFlow extends SubFlow implements Runnable {
 
     /**
      * Unterliegende Support Klasse.
      */
-    final private FlowSupport flowSupport;
+    private final FlowSupport flowSupport;
 
     /**
      * Diese Methode gibt die unterliegende Supoort Klasse zurÃ¼ck.
      * 
      * @return flowSupport
      */
-    public FlowSupport getFlowSupport() {
+    public final FlowSupport getFlowSupport() {
         return flowSupport;
     }
 
@@ -58,11 +57,11 @@ public class LoginFlow extends SubFlow implements Runnable {
 // Nutze den Registrierten Flow.
 gh.funthomas424242.examples.flow.support.Flow flow_ = flowSupport.nutzeDenRegistriertenFlow();
 // Erstelle einen Logindialog.
-gh.funthomas424242.examples.gui.support.swing.SwingDialog swingDialog_ = flowSupport.erstelleEinenLogindialog();
+gh.funthomas424242.examples.lib.DialogModelElement dialogModelElement_ = flowSupport.erstelleEinenLogindialog();
 // Registriere am Button examples.login.button.login den SchliessenFlow.
-flowSupport.registriereSchliessenFlowAmButton("examples.login.button.login", swingDialog_, flow_);
+flowSupport.registriereSchliessenFlowAmButton("examples.login.button.login", dialogModelElement_, flow_);
 // Registriere am Button examples.login.button.cancel den BeendenFlow.
-flowSupport.registriereBeendenFlowAmButton("examples.login.button.cancel", swingDialog_, flow_);
+flowSupport.registriereBeendenFlowAmButton("examples.login.button.cancel", dialogModelElement_, flow_);
 
 
     }

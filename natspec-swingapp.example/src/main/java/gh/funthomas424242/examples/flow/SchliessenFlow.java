@@ -8,21 +8,20 @@ import gh.funthomas424242.examples.lib.BusinessModel;
  * Diese Klasse repÃ¤sentiert einen Flow oder Subflow.
  * 
  * @author SchubertT006
- * 
  */
 public class SchliessenFlow extends SubFlow implements Runnable {
 
     /**
      * Unterliegende Support Klasse.
      */
-    final private FlowSupport flowSupport;
+    private final FlowSupport flowSupport;
 
     /**
      * Diese Methode gibt die unterliegende Supoort Klasse zurÃ¼ck.
      * 
      * @return flowSupport
      */
-    public FlowSupport getFlowSupport() {
+    public final FlowSupport getFlowSupport() {
         return flowSupport;
     }
 
