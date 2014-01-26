@@ -24,12 +24,8 @@ public class SchliessenFlow extends SubFlow implements Runnable {
 		
 		// Nutze den Registrierten Flow.
 		gh.funthomas424242.examples.flow.support.Flow flow_ = flowSupport.nutzeDenRegistriertenFlow();
-		// Nutze den Registrierten Flow.
-		gh.funthomas424242.examples.flow.support.Flow flow_0 = flowSupport.nutzeDenRegistriertenFlow();
 		// Schliesse den rufenden Dialog.
-		flowSupport.schliesseDenRufendenDialog(flow_0);
-		// Schliesse den rufenden Dialog.
-		flowSupport.schliesseDenRufendenDialog(flow_0);
+		flowSupport.schliesseDenRufendenDialog(flow_);
 		 
 	
 	}

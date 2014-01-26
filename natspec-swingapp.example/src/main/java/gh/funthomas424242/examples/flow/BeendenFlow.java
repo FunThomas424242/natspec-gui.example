@@ -24,10 +24,6 @@ public class BeendenFlow extends SubFlow implements Runnable {
 		
 		// Nutze den Registrierten Flow.
 		gh.funthomas424242.examples.flow.support.Flow flow_ = flowSupport.nutzeDenRegistriertenFlow();
-		// Nutze den Registrierten Flow.
-		gh.funthomas424242.examples.flow.support.Flow flow_0 = flowSupport.nutzeDenRegistriertenFlow();
-		// Beende die Anwendung.
-		flowSupport.beendeDieAnwendung();
 		// Beende die Anwendung.
 		flowSupport.beendeDieAnwendung();
 		 
