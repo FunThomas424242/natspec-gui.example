@@ -20,10 +20,8 @@ public class MainFlow extends SubFlow implements Runnable {
     /**
      * Konstruktor eines Subflow.
      * 
-     * @param model
-     *            globales Model der Anwendung.
-     * @param parentFlow
-     *            Flow zu dem der aktuelle Flow ein Teilflow ist.
+     * @param model globales Model der Anwendung.
+     * @param parentFlow Flow zu dem der aktuelle Flow ein Teilflow ist.
      */
     public MainFlow(final BusinessModel model, final Flow parentFlow) {
         super(model, parentFlow);
@@ -33,8 +31,7 @@ public class MainFlow extends SubFlow implements Runnable {
     /**
      * Konstruktur fÃ¼r einen Top Level Flow.
      * 
-     * @param model
-     *            globales Model der Anwendung.
+     * @param model globales Model der Anwendung.
      */
     public MainFlow(final BusinessModel model) {
         this(model, null);
