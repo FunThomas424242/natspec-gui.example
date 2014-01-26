@@ -9,7 +9,7 @@
     <copyright>&#169;2014</copyright>
     <item>
       <title>File: 25,
-             Errors: 1201,
+             Errors: 1200,
              Warnings: 0,
              Infos: 0
       </title>
@@ -27,20 +27,6 @@
             </tr>
           </thead>
           <tbody>
-                          <tr>
-                <td>
-                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.gui.EmptyDialog.java">gh/funthomas424242/examples/gui/EmptyDialog.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  58
-                </td>
-              </tr>
                           <tr>
                 <td>
                   <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.gui.LoginDialog.java">gh/funthomas424242/examples/gui/LoginDialog.java</a>
@@ -67,20 +53,6 @@
                 </td>
                 <td>
                   46
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.gui.package.html">gh/funthomas424242/examples/gui/package.html</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
                 </td>
               </tr>
                           <tr>
@@ -113,20 +85,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.app.package.html">gh/funthomas424242/examples/app/package.html</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.flow.BeendenFlow.java">gh/funthomas424242/examples/flow/BeendenFlow.java</a>
                 </td>
                 <td>
@@ -137,20 +95,6 @@
                 </td>
                 <td>
                   51
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.lib.DialogModelElement.java">gh/funthomas424242/examples/lib/DialogModelElement.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  15
                 </td>
               </tr>
                           <tr>
@@ -169,7 +113,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.lib.package.html">gh/funthomas424242/examples/lib/package.html</a>
+                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.lib.DialogModelElement.java">gh/funthomas424242/examples/lib/DialogModelElement.java</a>
                 </td>
                 <td>
                   0
@@ -178,21 +122,7 @@
                   0
                 </td>
                 <td>
-                  1
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.flow.LoginFlow.java">gh/funthomas424242/examples/flow/LoginFlow.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  61
+                  15
                 </td>
               </tr>
                           <tr>
@@ -207,48 +137,6 @@
                 </td>
                 <td>
                   87
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.flow.MainFlow.java">gh/funthomas424242/examples/flow/MainFlow.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  60
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.flow.FlowSupport.java">gh/funthomas424242/examples/flow/FlowSupport.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  131
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.gui.support.swing.package.html">gh/funthomas424242/examples/gui/support/swing/package.html</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
                 </td>
               </tr>
                           <tr>
@@ -290,35 +178,7 @@
                   0
                 </td>
                 <td>
-                  18
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.flow.support.package.html">gh/funthomas424242/examples/flow/support/package.html</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.lib.BusinessModel.java">gh/funthomas424242/examples/lib/BusinessModel.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  59
+                  17
                 </td>
               </tr>
                           <tr>
@@ -361,6 +221,146 @@
                 </td>
                 <td>
                   37
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.gui.EmptyDialog.java">gh/funthomas424242/examples/gui/EmptyDialog.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  58
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.gui.package.html">gh/funthomas424242/examples/gui/package.html</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.app.package.html">gh/funthomas424242/examples/app/package.html</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.lib.package.html">gh/funthomas424242/examples/lib/package.html</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.flow.LoginFlow.java">gh/funthomas424242/examples/flow/LoginFlow.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  61
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.gui.support.swing.package.html">gh/funthomas424242/examples/gui/support/swing/package.html</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.flow.MainFlow.java">gh/funthomas424242/examples/flow/MainFlow.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  60
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.flow.FlowSupport.java">gh/funthomas424242/examples/flow/FlowSupport.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  131
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.flow.support.package.html">gh/funthomas424242/examples/flow/support/package.html</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.lib.BusinessModel.java">gh/funthomas424242/examples/lib/BusinessModel.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  59
                 </td>
               </tr>
                           <tr>
