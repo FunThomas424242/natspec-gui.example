@@ -20,6 +20,7 @@
 			<id>local</id>
 			<properties>
 				<github.global.server>github</github.global.server>
+				<testrun>true</testrun>
 			</properties>
 			<activation>
 				<activeByDefault>true</activeByDefault>
@@ -30,6 +31,7 @@
 			<properties>
 				<github.global.userName>${env.USER}</github.global.userName>
 				<github.global.password>${env.PASSWORD}</github.global.password>
+				<testrun>false</testrun>
 			</properties>
 		</profile>
 	</profiles>
@@ -95,7 +97,7 @@
 				<version>${github.maventools.version}</version>
 				<configuration>
 					<message>Building site for ${project.version}</message>
-					<dryRun>false</dryRun>
+					<dryRun>${testrun}</dryRun>
 					<noJekyll>true</noJekyll>
 					<merge>true</merge>
 				</configuration>
