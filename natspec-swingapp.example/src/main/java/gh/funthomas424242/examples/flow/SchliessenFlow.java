@@ -4,12 +4,18 @@ import gh.funthomas424242.examples.flow.support.Flow;
 import gh.funthomas424242.examples.flow.support.SubFlow;
 import gh.funthomas424242.examples.lib.BusinessModel;
 
+/**
+ * Diese Klasse repÃ¤sentiert einen Flow oder Subflow.
+ * 
+ * @author SchubertT006
+ * 
+ */
 public class SchliessenFlow extends SubFlow implements Runnable {
 
     final private FlowSupport flowSupport;
 
     /**
-     * Diese Methode gibt die unterliegende Supoort Klasse zurÃ¼ck
+     * Diese Methode gibt die unterliegende Supoort Klasse zurÃ¼ck.
      * 
      * @return flowSupport
      */
