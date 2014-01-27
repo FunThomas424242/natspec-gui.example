@@ -20,7 +20,7 @@ public class LoginDialog {
     public DialogModelElement createDialog() {
         swingSupport = new SwingSupport();
         // generated code will be inserted here
-        // The code in this method is generated from: /natspec-swingapp.example/src/main/java/gh/funthomas424242/examples/gui/LoginDialog.natspec
+        // The code in this method is generated from: /natspec-swingapp/src/main/java/gh/funthomas424242/examples/gui/LoginDialog.natspec
 // Never change this method or any contents of this file, all local changes will be overwritten.
 
 // Beschreibung des Dialoges gh.funthomas424242.app.dialogs.login wie folgt:
