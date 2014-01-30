@@ -141,20 +141,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.flow.SchliessenFlow.java">gh/funthomas424242/examples/flow/SchliessenFlow.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.lib.DialogModelElement.java">gh/funthomas424242/examples/lib/DialogModelElement.java</a>
                 </td>
                 <td>
@@ -165,6 +151,20 @@
                 </td>
                 <td>
                   26
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.flow.SchliessenFlow.java">gh/funthomas424242/examples/flow/SchliessenFlow.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
                 </td>
               </tr>
                           <tr>
@@ -211,6 +211,20 @@
               </tr>
                           <tr>
                 <td>
+                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.flow.MainFlow.java">gh/funthomas424242/examples/flow/MainFlow.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  13
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.flow.FlowSupport.java">gh/funthomas424242/examples/flow/FlowSupport.java</a>
                 </td>
                 <td>
@@ -239,20 +253,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.flow.MainFlow.java">gh/funthomas424242/examples/flow/MainFlow.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  13
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.gui._NatSpecTemplate.java">gh/funthomas424242/examples/gui/_NatSpecTemplate.java</a>
                 </td>
                 <td>
@@ -267,20 +267,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.gui.HalloWeltDialog.java">gh/funthomas424242/examples/gui/HalloWeltDialog.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  22
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.app.AppFlowStarter.java">gh/funthomas424242/examples/app/AppFlowStarter.java</a>
                 </td>
                 <td>
@@ -291,6 +277,20 @@
                 </td>
                 <td>
                   5
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.gui.HalloWeltDialog.java">gh/funthomas424242/examples/gui/HalloWeltDialog.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  22
                 </td>
               </tr>
                           <tr>
@@ -351,20 +351,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.flow.support.Flow.java">gh/funthomas424242/examples/flow/support/Flow.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  20
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.lib.StringConcatinator.java">gh/funthomas424242/examples/lib/StringConcatinator.java</a>
                 </td>
                 <td>
@@ -375,6 +361,20 @@
                 </td>
                 <td>
                   37
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/FunThomas424242/natspec-swingapp.example/checkstyle.html#gh.funthomas424242.examples.flow.support.Flow.java">gh/funthomas424242/examples/flow/support/Flow.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  20
                 </td>
               </tr>
                       </tbody>
