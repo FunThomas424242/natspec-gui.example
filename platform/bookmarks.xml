@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookmarks>
+   <site url="http://www.emftext.org/update/" selected="true" name="Dropsbox Update Site\"/>
+   <site url="http://download.eclipse.org/egit/updates" selected="true" name="EGit P2 Repository"/>
+   <site url="http://download.eclipse.org/eclipse/updates/4.3" selected="true" name="The Eclipse Project Updates"/>
+   <site url="http://www.nat-spec.com/update" selected="true" name="update site: http://www.nat-spec.com/update"/>
+</bookmarks>
