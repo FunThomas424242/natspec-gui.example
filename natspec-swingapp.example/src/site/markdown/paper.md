@@ -1,5 +1,4 @@
-Rapid Prototyping via Lean Modeling 
-========================================
+# Rapid Prototyping via Lean Modeling #
 
 Viele Softwareprojekte setzen bereits auf MDD. Doch oft sind die Ansätze recht
 schwerfällig. Da müssen DSLs nebst Generatoren entwickelt werden. Anschliessend
@@ -56,8 +55,7 @@ Ansätzen hinterlegten starren Vorschriften zur Formulierung der Texte
 bietet [NatSpec](http://www.nat-spec.com/) die Möglichkeit natürlich 
 sprachliche Texte einzusetzen. 
 
-Quellen
-=======
+# Quellen #
 
 1. [Dr. Seifert, M.; Wende, C.; Heidenreich, F. & Nestler, T. (2013), 'Lean Modeling: mit natürlicher Sprache zum Modell', Java Magazin (12) .](http://jaxenter.de/artikel/Lean-Modeling-mit-natuerlicher-Sprache-zum-Modell-169936)
    
