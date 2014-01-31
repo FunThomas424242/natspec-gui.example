@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>NatSpec Swing GUI Example - Einführung</title>
+    <title>NatSpec Swing GUI Example - </title>
     <style type="text/css" media="all">
       @import url("./css/maven-base.css");
       @import url("./css/maven-theme.css");
@@ -71,8 +71,56 @@
     </div>
     <div id="bodyColumn">
       <div id="contentBox">
-        <h1>Einf&#xfc;hrung</h1>
-<p>im Aufbau</p>
+        <p>Rapid Prototyping via Lean Modeling ========================================</p>
+<p>Viele Softwareprojekte setzen bereits auf MDD. Doch oft sind die Ans&#xe4;tze recht schwerf&#xe4;llig. Da m&#xfc;ssen DSLs nebst Generatoren entwickelt werden. Anschliessend wird in den DSLs modelliert und das Generat mit manuellen Erweiterungen angereichert. Das Ganze in vielen Iterationen mit Schreib-Build-Test Zyklen. Glaubt man den Erfindern von <a class="externalLink" href="http://www.nat-spec.com/">NatSpec</a> so versucht Lean Modeling damit aufzur&#xe4;umen. </p>
+<p>Am Ende mancher Projekte schaut man beim Endprodukt auf eine riesige Menge an Dateien voller Quellkode. Ab und an fragt man sich dann schon ob solch ein Aufwand wirklich notwendig ist um ein paar verschiebbare Fenster mit Schaltfl&#xe4;chen auf den Bildschirm zu zaubern welche lediglich einige wenige Daten aus der Datenbank visualisieren. Der Aufbau der Fenster ist meist der gleiche, die Anordnung der Elemente folgt hoffentlich immer den gleichen Regeln und die von den Schaltfl&#xe4;chen ausgel&#xf6;sten Funktionen sind bereits von anderen Anwendungen gleicher Art bekannt. </p>
+<p>Wie sch&#xf6;n w&#xe4;re es da einfach schreiben zu k&#xf6;nnen:</p>
+
+<ol style="list-style-type: decimal">
+  
+<li>Erstelle einen Dialog &#x201c;LoginDialog&#x201d;.</li>
+  
+<li>F&#xfc;ge ein Label &#x201c;Benutzer&#x201d; links hinzu.</li>
+  
+<li>F&#xfc;ge eine Textfeld &#x201c;username&#x201d; rechts hinzu.</li>
+  
+<li>F&#xfc;ge ein Label &#x201c;Passwort&#x201d; links hinzu.</li>
+  
+<li>F&#xfc;ge ein Passwordfield &#x201c;passord&#x201d; rechts hinzu.</li>
+  
+<li>F&#xfc;ge einen Button &#x201c;Login&#x201d; links hinzu und verkn&#xfc;pfe diesen mit der Aktion  &#x201c;einloggen&#x201d;.</li>
+  
+<li>F&#xfc;ge einen Button &#x201c;Abbrechen&#x201d; rechts hinzu und verkn&#xfc;pfe diesen mit der  Aktion &#x201c;schliessen&#x201d;.</li>
+</ol>
+<p>und f&#xfc;r die Definition der Aktionen:</p>
+
+<ol style="list-style-type: decimal">
+  
+<li>F&#xfc;hre die Aktion &#x201c;schliessen&#x201d; aus als Schliessen des aktiven Dialoges.</li>
+  
+<li>Realisiere die Aktion &#x201c;einloggen&#x201d; in der Klasse &#x201c;Einloggen&#x201d;.</li>
+  
+<li>Definiere die Aktion &#x201c;Speichern&#x201d; als Folge der Aktionen:</li>
+</ol>
+
+<ul>
+  
+<li>&#x201c;Speichere aktiven Dialog Zustand&#x201d;</li>
+  
+<li>&#x201c;Speichere Reportdaten&#x201d;</li>
+  
+<li>&#x201c;Speichere Stammdaten&#x201d;</li>
+  
+<li>&#x201c;Aktualisiere den Dialog&#x201d;</li>
+</ul>
+<p>Nu so sch&#xf6;n diese Form auch aussieht, f&#xfc;r MDD wird man zun&#xe4;chst eine DSL daf&#xfc;r entwickeln m&#xfc;ssen. Um die modellierten Dialoge und Aktivit&#xe4;ten f&#xfc;r den Generator vorhalten zu k&#xf6;nnen wird ein fachliches Modell ben&#xf6;tigt und schliesslich muss auch der Generator selbst geschrieben werden.</p>
+<p>Die Idee vom Lean Modeling wie sie in (1) beschrieben ist besteht nun darin, eine DSL zu nutzen und in dieser mittels nat&#xfc;rlicher Sprache die einzelnen fachlichen Aspekte zu beschreiben. Dabei werden einzelne Satzmuster den Methoden von Java Klassen zugeordnet. Diese Methodik ist aus dem <a class="externalLink" href="http://de.wikipedia.org/wiki/Behavior_Driven_Development">BDD</a> Umfeld von den <a class="externalLink" href="http://de.wikipedia.org/wiki/Behavior_Driven_Development#Beispiel_in_der_Beschreibungssprache_Gherkin">Gherkin</a> basierten Akzeptanztestsprachen her bekannt. Doch statt der bei den Gherkin Ans&#xe4;tzen hinterlegten starren Vorschriften zur Formulierung der Texte bietet <a class="externalLink" href="http://www.nat-spec.com/">NatSpec</a> die M&#xf6;glichkeit nat&#xfc;rlich sprachliche Texte einzusetzen. </p>
+<h1>Quellen</h1>
+
+<ol style="list-style-type: decimal">
+  
+<li><a class="externalLink" href="http://jaxenter.de/artikel/Lean-Modeling-mit-natuerlicher-Sprache-zum-Modell-169936">Dr. Seifert, M.; Wende, C.; Heidenreich, F. &amp; Nestler, T. (2013), &#x2018;Lean Modeling: mit nat&#xfc;rlicher Sprache zum Modell&#x2019;, Java Magazin (12) .</a></li>
+</ol>
       </div>
     </div>
     <div class="clear">
